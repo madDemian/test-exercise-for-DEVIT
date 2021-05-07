@@ -3,11 +3,11 @@
 db.posts.find().sort({_id:6}).limit(5);
 
 //2
-db.posts.find( { like: { $gte: 100} } )
+db.posts.find( { likes: { $gte: 100} } )
 
 //3
 db.posts.insert( { diamond:true } )
 
 //4
-db.posts.find( {author},{$sum:like} )
+db.posts.find( {author},{$sum:likes} )
 
