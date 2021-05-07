@@ -1,0 +1,5 @@
+echo "###May be in the future"  Readme.md              #Cозданный файл Readme.md будет иметь текст.
+git add .Readme.md                  #добавление файлов в стадию ожидания;
+git st                              #проверить что файлы добавились в ожидание
+git commit -m "adding Readme.md"    #коммит файла
+git push example/test.git dev     #Пушим коммит на сервер
